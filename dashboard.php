@@ -7,18 +7,14 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <style>
-    .nav-tabs .nav-link.active {
-      font-weight: 700;
-    }
-  </style>
   <title>Pertemuan 6</title>
 </head>
 
-<body>
+<body class="h-100">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container container-fluid">
+    <div class="container container-fluid py-2">
       <a href="index.php" class="navbar-brand">
         <i class="bi bi-apple text-primary"></i>
         <strong>Fruity</strong>
@@ -31,7 +27,7 @@
         <div class="d-flex">
           <ul class="navbar-nav align-items-center w-100">
             <li class="nav-item">
-              <a href="dashboard.php" class="nav-link active text-primary"><strong>Admin Dashboard</strong></a>
+              <a href="dashboard.php" class="nav-link active text-primary"><strong>Dashboard</strong></a>
             </li>
             <li class="nav-item">
               <a href="index.php" class="nav-link">Home</a>
@@ -47,7 +43,7 @@
               <a href="account.php" class="btn btn-sm btn-primary w-100"><i class="bi bi-person-fill"></i></a>
             </li>
             <li class="nav-item ms-0 ms-md-2 d-block mt-2 mt-md-0">
-              <a href="account.php" class="btn btn-sm btn-danger w-100"><i class="bi bi-box-arrow-right"></i></a>
+              <a href="login.php" class="btn btn-sm btn-danger w-100"><i class="bi bi-box-arrow-right"></i></a>
             </li>
           </ul>
         </div>

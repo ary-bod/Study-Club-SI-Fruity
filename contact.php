@@ -7,13 +7,14 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <title>Pertemuan 6</title>
 </head>
 
-<body>
+<body class="h-100">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container container-fluid">
+    <div class="container container-fluid py-2">
       <a href="index.php" class="navbar-brand">
         <i class="bi bi-apple text-primary"></i>
         <strong>Fruity</strong>
@@ -31,11 +32,15 @@
             <li class="nav-item">
               <a href="contact.php" class="nav-link active text-primary"><strong>Contact Me</strong></a>
             </li>
+          </ul>
+        </div>
+        <div class="d-block">
+          <ul class="navbar-nav">
             <li class="nav-item ms-0 ms-md-2">
-              <a href="signup.php" class="btn btn-sm btn-outline-primary" style="width: 100px;">Sign Up</a>
+              <a href="signup.php" class="btn btn-sm btn-outline-primary w-100">Sign Up</a>
             </li>
-            <li class="nav-item ms-0 ms-md-2">
-              <a href="login.php" class="btn btn-sm btn-primary" style="width: 100px;">Login</a>
+            <li class="nav-item ms-0 ms-md-2 mt-2 mt-md-0">
+              <a href="login.php" class="btn btn-sm btn-primary w-100">Login</a>
             </li>
           </ul>
         </div>
